@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量
+.env
+.env.local
+
+# 数据（忽略内容，保留 .gitkeep）
+data/raw/*
+!data/raw/.gitkeep
+data/raw_images/*
+!data/raw_images/.gitkeep
+data/images/*
+!data/images/.gitkeep
+data/images_upright/*
+!data/images_upright/.gitkeep
+data/pages/*
+!data/pages/.gitkeep
+data/pages_final/*
+!data/pages_final/.gitkeep
+
+# 输出
+outputs/*
+!outputs/.gitkeep
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
